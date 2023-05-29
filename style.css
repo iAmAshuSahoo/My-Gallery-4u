@@ -2573,15 +2573,15 @@ footer {
 
 /*Pricing Section CSS*/
 
-.pricing {
+#pricing {
   padding: 5em 0;
 }
 
-.pricing h2 {
+#pricing h2 {
   text-align: center;
 }
 
-.pricing .container {
+#pricing .container {
   position: relative;
   width: 1150px;
   padding: 20px;
@@ -2591,7 +2591,7 @@ footer {
   flex-wrap: wrap;
 }
 
-.pricing .container .card {
+#pricing .container .card {
   position: relative;
   width: 300px;
   height: 420px;
@@ -2603,11 +2603,11 @@ footer {
   transition: 0.5s;
 }
 
-.pricing .container .card:hover {
+#pricing .container .card:hover {
   transform: scale(1.1);
 }
 
-.pricing .container .card .circle {
+#pricing .container .card .circle {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2616,13 +2616,13 @@ footer {
   text-align: center;
 }
 
-.pricing .container .card .circle h3 {
+#pricing .container .card .circle h3 {
   color: #fff;
   font-size: 2em;
   padding: 60px 0;
 }
 
-.pricing .container .card .content {
+#pricing .container .card .content {
   position: absolute;
   width: 100%;
   bottom: 10px;
@@ -2632,12 +2632,12 @@ footer {
   font-weight: 600;
 }
 
-.pricing .container .card .content .features {
+#pricing .container .card .content .features {
   color: #666;
   margin-bottom: 8px;
 }
 
-.pricing .container .card .content a {
+#pricing .container .card .content a {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
@@ -2648,18 +2648,18 @@ footer {
   margin-top: 20px;
 }
 
-.pricing .container .card:nth-child(1) .circle,
-.pricing .container .card:nth-child(1) .content a {
+#pricing .container .card:nth-child(1) .circle,
+#pricing .container .card:nth-child(1) .content a {
   background: #ffaf00;
 }
 
-.pricing .container .card:nth-child(2) .circle,
-.pricing .container .card:nth-child(2) .content a {
+#pricing .container .card:nth-child(2) .circle,
+#pricing .container .card:nth-child(2) .content a {
   background: #da2268;
 }
 
-.pricing .container .card:nth-child(3) .circle,
-.pricing .container .card:nth-child(3) .content a {
+#pricing .container .card:nth-child(3) .circle,
+#pricing .container .card:nth-child(3) .content a {
   background: #bb02ff;
 }
 
